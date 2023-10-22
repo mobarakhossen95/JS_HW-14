@@ -1,0 +1,234 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* password */
+
+#password{
+  margin-bottom: 40px !important;
+  margin-top: 50px;
+  width: 300px;
+  margin: auto;
+}
+.pass_cart{
+  border-radius: 20px;
+  padding-bottom: 50px !important;
+  margin-top: 50px !important;
+  margin: auto;
+  background: #007991;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+.pass_cart h2{
+  border-radius: 20px 20px 0 0;
+  font-size: 40px;
+  padding: 20px;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  margin-bottom: 10px;
+}
+.pass_cart .name{
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+}
+.pass_cart .password{
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+}
+.pass_cart .reg{
+  text-transform: capitalize;
+  background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top: 30px;
+padding: 15px 25px;
+border: none;
+border-radius: 12px;
+color: white;
+transition: 0.34s;
+}
+.pass_cart .reg:hover{font-size: 14px;
+}
+.pass_cart .passwordOne{
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+}
+
+.pass_cart .eye {
+  padding: 5px -3px;
+  margin-left: -19px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+
+}
+.pass_cart .eyeOne {
+  padding: 5px -3px;
+  margin-left: -19px;
+  color: black;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+.name:focus{
+  box-shadow: none;
+}
+/* password end */
+
+/* quantit  section starts*/
+#quantity{
+  margin: auto;
+  margin-bottom: 30px;
+}
+#quantity .cart {
+  width: 150px;
+  display: flex; 
+  margin: auto;
+}
+#quantity .cart *{
+  width: 33.33%;
+  height: 30px;
+  text-align: center;
+  display: block;
+}
+#quantity .cart input{
+  border: none;
+  color: rgba(30, 29, 29, 0.884);
+  font-size: 20px;
+}
+#quantity .cart button{
+  background-color: #eff0f5;
+  border: none;
+  color: #9e9e9e;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+#quantity .cart button:hover{
+  color:white;
+  background-color: #9e9e9e;
+}
+#quantity .result:focus{
+  border: none;
+}
+/* quantit  section ends*/
+
+/* range starts */
+#range {
+  margin:auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#range h4{
+  width: 200px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: arial;
+  margin-bottom: 10px;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+#range .rangeSlider{
+  appearance: none;
+  outline: none;
+  width: 300px;
+  height: 18px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  overflow: hidden;
+}
+#range .rangeSlider::-webkit-slider-thumb{
+  appearance:none ;
+  width: 18px;
+  height: 18px;
+  box-shadow: -420px 0 0 400px #fd0065;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+#range .output {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+  border-radius:10px ;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  background: #c0392b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* range ends */
+
+/* colorize section starts */
+
+#colorize{
+  margin-bottom: 50px !important;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  background-color:#E1A190;
+  height: 30vh;
+  border-radius: 90px 0 ;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+ h4{
+  width: 200px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: arial;
+  margin-bottom: 10px;
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#colorize .colorize{
+  padding: 15px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  font-family:georgia;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: transparent;
+  transition: 0.34s;
+  margin: auto;margin-top: 12%;
+}
+#colorize .colorize:hover{
+  font-size: 21px;
+  padding: 18px 28px;
+}
+/* colorize section ends  */
